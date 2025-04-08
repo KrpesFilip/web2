@@ -7,5 +7,5 @@ const express = require('express');
  res.send('Pozdrav sa Railway servera!');
  });
  app.listen(PORT, () => {
- console.log('Server pokrenut na portu ${PORT}');
+ console.log(`Server pokrenut na portu ${PORT}`);
  });
